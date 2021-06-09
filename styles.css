@@ -1,10 +1,12 @@
 @font-face {
   font-family: "Homemade Apple";
   src: url("fonts/HomemadeApple-Regular.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Gilroy";
   src: url("fonts/Gilroy-Light.otf");
+  font-display: swap;
 }
 body, ul, p, h2, h3, a {
   margin: 0;
@@ -325,24 +327,18 @@ ul {
 .copyright p {
   margin: 73px 7px 35px 7px;
 }
-@media only screen and (max-width: 320px) {
-  .button-hide {
-    display: none;
-  }
+@media only screen and (max-width: 600px) {
+.button-hide {
+  display: none;
+ }
 }
 @media only screen and (max-width: 600px) {
   .header {
-  justify-content: space-between;
+  justify-content: center;
   padding: auto;
  }
 }
-@media only screen and (max-width: 320px) {
-  .header {
-  justify-content: center;
-  padding: 0px;
- }
-}
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 600px) {
   .logo {
   margin: 0px;
  }
@@ -371,7 +367,7 @@ ul {
     margin: 20px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .main-grid-text-content {
     justify-content: center;
     padding: 0px;
@@ -383,7 +379,7 @@ ul {
     line-height: 30px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .main-grid-text-desc {
     width: 320px;
     font-size: 18px;
@@ -394,18 +390,24 @@ ul {
     order: 1;
   }
 }
+@media only screen and (max-width: 1200px) {
+  .main-grid {
+    align-content: stretch;
+    align-items: stretch;
+  }
+}
 @media only screen and (max-width: 800px) {
   .main-grid {
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .text-center {
     margin-top: 30px;
     font-size: 28px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .text-center-small {
     margin: 20px;
     line-height: 30px;
@@ -428,7 +430,7 @@ ul {
     justify-content: space-evenly;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .items {
     margin-top: 30px;
   }
@@ -480,18 +482,18 @@ ul {
     margin-top: auto;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .banner {
     padding: 0px 30px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .banner-text {
     margin-top: 30px;
     margin-bottom: 20px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .banner-title {
     margin-bottom: 30px;
   }
@@ -507,14 +509,14 @@ ul {
     justify-content: space-evenly;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .banner-buttons {
     flex-flow: wrap column;
     align-content: center;
     width: 300px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .button {
     margin-bottom: 10px;
   }
@@ -537,7 +539,7 @@ ul {
     width: auto;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .highlighted-article {
    justify-content: center;
    align-items: center;
@@ -549,7 +551,7 @@ ul {
     width: auto;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .highlighted-article-image {
     width: 320px;
   }
@@ -568,14 +570,14 @@ ul {
     width: 400px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .highlighted-article-text {
     padding: 0px;
     width: 320px;
     margin: 0px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .highlighted-article-author {
     margin: 15px;
   }
@@ -585,12 +587,12 @@ ul {
     font-size: 36px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .highlighted-article-title {
     margin: 15px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .highlighted-article-link {
     margin: 15px;
   }
@@ -622,7 +624,7 @@ ul {
     margin: 80px 0px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .articles {
     margin-top: 0px;
     margin-bottom: 20px;
@@ -639,26 +641,26 @@ ul {
     width: 400px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .article {
     width: 320px;
     margin-top: 20px;
     padding-bottom: 20px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .article-text {
     font-size: 16px;
     padding: 30px;
     margin: 0px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .article-title {
     font-size: 20px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .article-link {
     margin: 0px;
     padding: 0px;
@@ -670,7 +672,7 @@ ul {
     padding-top: 30px;
  }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .footer-navigation-items {
     padding-top: 20px;
     justify-content: center;
@@ -721,22 +723,22 @@ ul {
     margin: 0px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   h2 {
     width: 270px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .main-grid-text-desc {
     width: 270px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .text-align-justify {
     width: 270px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   h3 {
     font-size: 32px;
     line-height: 40px;
